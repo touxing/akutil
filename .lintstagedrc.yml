@@ -1,2 +1,2 @@
-"*.{js,ts,json,md}":
-  - "prettier -c --write"
+'*.{js,ts,json,md,yml,yaml}':
+  - 'prettier -c --write'
