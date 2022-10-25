@@ -1,0 +1,83 @@
+{
+  "name": "@hotsuitor/akutil",
+  "version": "0.0.1",
+  "description": "Common web development tools functions. 封装日常开发常用的工具函数",
+  "main": "dist/akutil.umd.js",
+  "module": "dist/akutil.es5.js",
+  "typings": "dist/types/akutil.d.ts",
+  "scripts": {
+    "build": "rollup -c rollup.config.ts --configPlugin typescript --bundleConfigAsCjs --environment BUILD:production",
+    "start": "rollup -c rollup.config.ts --configPlugin typescript --bundleConfigAsCjs --environment BUILD:development --watch",
+    "lint": "./node_modules/.bin/eslint src/* test/* build/*",
+    "prettier": "prettier --write src/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "util",
+    "akutil"
+  ],
+  "author": "hotsuitor <hotsuitor@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/touxing/akutil.git"
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "{src,test}/**/*.{ts,js}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@rollup/plugin-babel": "^6.0.2",
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-json": "^5.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/lodash.camelcase": "^4.3.7",
+    "@types/node": "^18.11.5",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "lodash.camelcase": "^4.3.0",
+    "rollup": "^3.2.3",
+    "rollup-plugin-dts": "^5.0.0",
+    "rollup-plugin-esbuild": "^4.10.1",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^9.0.0",
+    "typedoc": "^0.23.18",
+    "typescript": "^4.8.4"
+  }
+}
