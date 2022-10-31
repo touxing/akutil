@@ -6,6 +6,7 @@
   "module": "dist/akutil.es5.js",
   "typings": "dist/types/akutil.d.ts",
   "scripts": {
+    "prepare": "husky install",
     "build": "rollup -c rollup.config.ts --configPlugin typescript --bundleConfigAsCjs --environment BUILD:production",
     "start": "rollup -c rollup.config.ts --configPlugin typescript --bundleConfigAsCjs --environment BUILD:development --watch",
     "lint": "./node_modules/.bin/eslint src/* test/* build/*",

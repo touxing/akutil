@@ -8,6 +8,12 @@ module.exports = {
   arrowParens: 'always',
   overrides: [
     {
+      files: ['*.ts'],
+      options: {
+        parser: 'typescript',
+      },
+    },
+    {
       files: ['*.json'],
       options: {
         parser: 'json5',
