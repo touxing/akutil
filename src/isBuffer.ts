@@ -9,12 +9,7 @@ const freeExports =
 
 /** Detect free variable `module`. */
 // @ts-ignore
-const freeModule =
-  freeExports &&
-  typeof module === 'object' &&
-  module !== null &&
-  !module.nodeType &&
-  module
+const freeModule =   freeExports &&  typeof module === 'object' &&  module !== null &&  !module.nodeType &&  module
 
 /** Detect the popular CommonJS extension `module.exports`. */
 const moduleExports = freeModule && freeModule.exports === freeExports

@@ -3,6 +3,8 @@ module.exports = {
     test: {
       presets: ['@babel/preset-env'],
     },
+    exclude: 'node_modules/**',
+    babelHelpers: 'bundled',
     build: {
       presets: [
         [

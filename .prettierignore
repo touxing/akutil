@@ -1,2 +1,4 @@
 dist
 package.json
+isBuffer.ts
+nodeTypes.ts

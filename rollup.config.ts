@@ -6,9 +6,9 @@ import typescript from '@rollup/plugin-typescript'
 import camelCase from 'lodash.camelcase'
 import sourceMaps from 'rollup-plugin-sourcemaps'
 import { terser } from 'rollup-plugin-terser'
-// import babel from '@rollup/plugin-babel'
+import babel from '@rollup/plugin-babel'
 // import dts from 'rollup-plugin-dts'
-// import esbuild from 'rollup-plugin-esbuild'
+import esbuild from 'rollup-plugin-esbuild'
 
 const isProduction = process.env.BUILD === 'production'
 
@@ -21,7 +21,7 @@ const rollupConfig: RollupOptions = {
   output: [
     {
       file: pkg.main,
-      name: camelCase(libraryName),
+      name: camelCase(libraryName), // 挂载到 window上的属性名
       format: 'umd',
       sourcemap: true,
     },

@@ -1,4 +1,5 @@
 import { downloadFile, downloadImage } from './file/file';
+import { Stack } from './Stack';
 declare const _default: {
     debounce: (fn: Function, ms?: number) => (this: any, ...args: any[]) => void;
     throttle: (fn: Function, wait?: number) => (this: any) => void;
@@ -9,5 +10,6 @@ declare const _default: {
         (downloadAjax: any, params: any, filename: string): Promise<any>;
     };
     downloadImage: typeof downloadImage;
+    Stack: typeof Stack;
 };
 export default _default;

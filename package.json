@@ -71,6 +71,8 @@
     "@rollup/plugin-typescript": "^9.0.2",
     "@types/lodash.camelcase": "^4.3.7",
     "@types/node": "^18.11.5",
+    "babel-loader": "^9.0.0",
+    "esbuild": "^0.15.12",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "lodash.camelcase": "^4.3.0",

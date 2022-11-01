@@ -119,6 +119,33 @@ function downloadImage(imgsrc, name) {
     });
 }
 
+var Stack = /** @class */ (function () {
+    function Stack() {
+        this.items = [];
+    }
+    Stack.prototype.isEmpty = function () {
+        return this.items.length === 0;
+    };
+    Stack.prototype.size = function () {
+        return this.items.length;
+    };
+    Stack.prototype.push = function (data) {
+        this.items.push(data);
+    };
+    Stack.prototype.pop = function () {
+        return this.items.pop();
+    };
+    Stack.prototype.peek = function () {
+        if (this.isEmpty())
+            return;
+        return this.items[this.items.length - 1];
+    };
+    Stack.prototype.print = function () {
+        console.log(this.items);
+    };
+    return Stack;
+}());
+
 // 防抖与节流
 var akutil = {
     debounce: debounce,
@@ -126,6 +153,7 @@ var akutil = {
     downloadFile: downloadFile,
     downloadFileWithBlob: downloadFileWithBlob,
     downloadImage: downloadImage,
+    Stack: Stack,
 };
 
 export { akutil as default };
