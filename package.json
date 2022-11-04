@@ -9,6 +9,7 @@
     "prepare": "husky install",
     "build": "rollup -c rollup.config.ts --configPlugin typescript --bundleConfigAsCjs --environment BUILD:production",
     "start": "rollup -c rollup.config.ts --configPlugin typescript --bundleConfigAsCjs --environment BUILD:development --watch",
+    "start:weapp": "rollup -c rollup.config.weapp.js --bundleConfigAsCjs --environment BUILD:development --watch",
     "lint": "./node_modules/.bin/eslint src/* test/* build/*",
     "prettier": "prettier --write src/*",
     "test": "echo \"Error: no test specified\" && exit 1"

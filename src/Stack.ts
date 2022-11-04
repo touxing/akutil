@@ -1,23 +1,28 @@
+/**
+ * 栈数据结构
+ */
 export class Stack {
-  private items: Array<any> = []
-  constructor() {}
+  private stack: Array<any>
+  constructor() {
+    this.stack = []
+  }
   isEmpty() {
-    return this.items.length === 0
+    return this.stack.length === 0
   }
   size(): number {
-    return this.items.length
+    return this.stack.length
   }
   push(data: any) {
-    this.items.push(data)
+    this.stack.push(data)
   }
   pop() {
-    return this.items.pop()
+    return this.stack.pop()
   }
   peek() {
     if (this.isEmpty()) return
-    return this.items[this.items.length - 1]
+    return this.stack[this.stack.length - 1]
   }
   print() {
-    console.log(this.items)
+    console.log(this.stack)
   }
 }
