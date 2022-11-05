@@ -25,3 +25,50 @@ export class Queue {
     console.log(this.queue)
   }
 }
+
+
+/**
+ * todo: 队列元素
+ * @param this
+ * @param element
+ * @param priority
+ */
+function QueueElement(this:any, element:any, priority:number) {
+  this.element = element
+  this.priority = priority
+}
+/**
+ * 优先队列
+ */
+export class PriorityQueue {
+  private queue: Array<{ value: any; priority: number }>
+
+  constructor() {
+    this.queue = []
+  }
+
+  isEmpty() {
+    return this.queue.length === 0
+  }
+  size() {
+    return this.queue.length
+  }
+  enqueue(value: any, priority: number = 1) {
+    let len = this.queue.length
+    let position = len
+    // 最大优先队列，值越大，优先级越高
+    while (this.size() && priority > this.queue[position - 1]?.priority) {
+      position--
+    }
+    this.queue.splice(position, 0, { value, priority })
+  }
+  dequeue() {
+    return this.queue.shift()?.value
+  }
+  front() {
+    return this.queue[0]?.value
+  }
+  print() {
+    console.log(this.queue)
+  }
+}
