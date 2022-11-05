@@ -15,3 +15,11 @@ yarn add @hotsuitor/akutil
 ```js
 import akutil from 'akutil'
 ```
+
+## 参与开发
+
+1. git clone 代码
+2. 安装依赖
+3. 配置 Git hook
+ 3.1 `npx husky install`
+ 3.2 `npx husky set pre-commit "npx lint-staged"`
