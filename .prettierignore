@@ -3,7 +3,4 @@ package.json
 isBuffer.ts
 nodeTypes.ts
 pnpm-lock.yaml
-.lintstagedrc.yml
 package-lock.json
-pre-commit
-.husky
