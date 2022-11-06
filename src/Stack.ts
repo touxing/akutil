@@ -22,6 +22,9 @@ export class Stack {
     if (this.isEmpty()) return
     return this.stack[this.stack.length - 1]
   }
+  clear() {
+    this.stack = []
+  }
   print() {
     console.log(this.stack)
   }

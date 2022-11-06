@@ -79,6 +79,73 @@ export class PriorityQueue {
   front() {
     return this.queue[0]?.value
   }
+  clear() {
+    this.queue = []
+  }
+  print() {
+    console.log(this.queue)
+  }
+}
+
+/**
+ * 循环队列
+ * 是为了解决内存空间浪费的问题
+ * 用指针方式实现
+ */
+export class CycleQueue {
+  private queue: Array<any>
+  public maxSize: number // 队列长度
+  private head: number // 队列头
+  private tail: number // 队列尾
+
+  constructor(size: number) {
+    // 初始化队列空间大小
+    this.maxSize = size
+    this.queue = new Array(size)
+    this.head = 0
+    this.tail = 0
+  }
+
+  isEmpty() {
+    return this.head == this.tail
+  }
+  isFull() {
+    // 队列必须空一个位置来判断队满的临界值
+    return (this.tail + 1) % this.maxSize == this.head
+  }
+  size() {
+    return (this.tail - this.head + this.maxSize) % this.maxSize
+  }
+  enqueue(value: any): boolean {
+    if (this.isFull()) {
+      return false
+    }
+    this.queue[this.tail] = value
+    // 入队后， tail 指针后移一位
+    this.tail = (this.tail + 1) % this.maxSize
+    return true
+  }
+  dequeue() {
+    if (this.isEmpty()) {
+      return false
+    }
+    let result = this.queue[this.head]
+    this.queue[this.head] = null
+    this.head = (this.head + 1) % this.maxSize
+    return result
+  }
+  peek() {
+    if (this.isEmpty()) {
+      return false
+    }
+    return this.queue[this.head]
+  }
+  clear() {
+    this.queue = []
+  }
+  toString() {
+    return '[' + this.queue.join(',') + ']'
+  }
   print() {
     console.log(this.queue)
   }

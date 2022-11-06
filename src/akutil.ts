@@ -6,7 +6,7 @@ import { throttle } from './throttle'
 import { downloadFile, downloadFileWithBlob, downloadImage } from './file/file'
 
 import { Stack } from './Stack'
-import { Queue, PriorityQueue } from './Queue'
+import { Queue, PriorityQueue, CycleQueue } from './Queue'
 
 import { extend } from './extend'
 
@@ -16,6 +16,7 @@ export {
   Stack,
   Queue,
   PriorityQueue,
+  CycleQueue,
   extend,
   downloadFile,
   downloadFileWithBlob,
@@ -30,5 +31,6 @@ export default {
   Stack,
   Queue,
   PriorityQueue,
+  CycleQueue,
   extend,
 }
