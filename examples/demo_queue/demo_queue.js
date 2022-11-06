@@ -15,7 +15,7 @@ console.log(queue.dequeue())
 queue.enqueue(3)
 console.log(queue.front())
 
-console.log('========优先队列');
+console.log('========优先队列')
 // 优先队列
 const priorityQueue = new akutil.PriorityQueue()
 priorityQueue.print()
@@ -31,5 +31,7 @@ priorityQueue.enqueue('f')
 priorityQueue.enqueue('g')
 priorityQueue.enqueue('h', 2)
 priorityQueue.enqueue('A', 3)
+priorityQueue.enqueueByMin('m', 4)
+priorityQueue.enqueueByMin('mn', 3)
 console.log(priorityQueue.front())
 priorityQueue.print()

@@ -26,14 +26,13 @@ export class Queue {
   }
 }
 
-
 /**
  * todo: 队列元素
  * @param this
  * @param element
  * @param priority
  */
-function QueueElement(this:any, element:any, priority:number) {
+function QueueElement(this: any, element: any, priority: number) {
   this.element = element
   this.priority = priority
 }
@@ -59,6 +58,18 @@ export class PriorityQueue {
     // 最大优先队列，值越大，优先级越高
     while (this.size() && priority > this.queue[position - 1]?.priority) {
       position--
+    }
+    this.queue.splice(position, 0, { value, priority })
+  }
+  /**
+   * 入队列，最小优先原则
+   */
+  enqueueByMin(value: any, priority: number) {
+    let position = 0
+    for (let i = 0, len = this.queue.length; i < len; i++) {
+      if (priority > this.queue[i].priority) {
+        position = i + 1
+      }
     }
     this.queue.splice(position, 0, { value, priority })
   }
