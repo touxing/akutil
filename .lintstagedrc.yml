@@ -1,0 +1,3 @@
+# @prettier
+'*.{js,ts,json}':
+  - prettier -c --write
