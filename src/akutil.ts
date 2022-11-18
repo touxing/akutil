@@ -10,6 +10,7 @@ import { Queue, PriorityQueue, CycleQueue } from './struct/Queue'
 import { LinkedList } from './struct/LinkedList'
 import { DoublyLinkedList } from './struct/DoublyLinkedList'
 import { Set } from './struct/Set'
+import { Dictionary } from './struct/Dictionary'
 
 import { extend } from './extend'
 
@@ -23,6 +24,7 @@ export {
   LinkedList,
   DoublyLinkedList,
   Set,
+  Dictionary,
   extend,
   downloadFile,
   downloadFileWithBlob,
@@ -41,5 +43,6 @@ export default {
   LinkedList,
   DoublyLinkedList,
   Set,
+  Dictionary,
   extend,
 }
