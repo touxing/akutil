@@ -8,6 +8,7 @@ import { downloadFile, downloadFileWithBlob, downloadImage } from './file/file'
 import { Stack } from './Stack'
 import { Queue, PriorityQueue, CycleQueue } from './Queue'
 import { LinkedList } from './struct/LinkedList'
+import { DoublyLinkedList } from './struct/DoublyLinkedList'
 
 import { extend } from './extend'
 
@@ -19,6 +20,7 @@ export {
   PriorityQueue,
   CycleQueue,
   LinkedList,
+  DoublyLinkedList,
   extend,
   downloadFile,
   downloadFileWithBlob,
@@ -35,5 +37,6 @@ export default {
   PriorityQueue,
   CycleQueue,
   LinkedList,
+  DoublyLinkedList,
   extend,
 }

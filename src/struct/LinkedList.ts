@@ -1,13 +1,13 @@
 /**
  * 链表节点
  */
-class Node {
+export class Node {
   constructor(public element: any, public next: any = null) {}
 }
 
 export class LinkedList {
-  private length: number
-  private head: Node | null
+  protected length: number
+  protected head: Node | null
   constructor() {
     this.length = 0
     this.head = null
@@ -42,8 +42,8 @@ export class LinkedList {
    * @param element 项
    * @returns
    */
-  insert(position: number, element: any) {
-    if (position > this.size()) return false
+  insert(position: number, element: any): boolean {
+    if (position < 0 || position > this.size()) return false
 
     let node = new Node(element)
     let current = this.head
@@ -64,13 +64,35 @@ export class LinkedList {
     return true
   }
   /**
+   * 返回链表中特定位置的元素。如果链表中不存在这样的元素，则返回undefined
+   * @param index
+   * @returns Node|undefined
+   */
+  getElementAt(position: number) {
+    if (position < 0 || position >= this.size()) return
+    let current = this.head,
+      index = 0
+    if (position === 0) {
+      if(current === null) {
+        return
+      } else {
+        return current?.element
+      }
+    } else {
+      while (index++ < position) {
+        current = current!.next
+      }
+      return current?.element
+    }
+  }
+  /**
    * 删除链表指定位置的项
    * @param position 位置
-   * @returns
+   * @returns element 删除的项目
    */
   removeAt(position: number) {
     // 位置越界，超过链表长度
-    if (position > this.size() || this.size() <= 0) return false
+    if (position >= this.size() || this.size() <= 0) return false
 
     let current = this.head,
       previous: Node,
@@ -145,7 +167,7 @@ export class LinkedList {
   getHead() {
     return this.head?.element
   }
-  toString() {
+  toString(): string {
     let result = []
     let current = this.head
     while (current?.next) {
@@ -164,7 +186,7 @@ export class LinkedList {
       current = current.next
     }
     // 第一个或最后一个节点
-    str += current!.element
+    str += current?.element
     str += ']'
     console.log(str)
   }
