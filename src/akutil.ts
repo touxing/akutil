@@ -5,10 +5,11 @@ import { throttle } from './throttle'
 // 下载文件（图片）
 import { downloadFile, downloadFileWithBlob, downloadImage } from './file/file'
 
-import { Stack } from './Stack'
-import { Queue, PriorityQueue, CycleQueue } from './Queue'
+import { Stack } from './struct/Stack'
+import { Queue, PriorityQueue, CycleQueue } from './struct/Queue'
 import { LinkedList } from './struct/LinkedList'
 import { DoublyLinkedList } from './struct/DoublyLinkedList'
+import { Set } from './struct/Set'
 
 import { extend } from './extend'
 
@@ -21,6 +22,7 @@ export {
   CycleQueue,
   LinkedList,
   DoublyLinkedList,
+  Set,
   extend,
   downloadFile,
   downloadFileWithBlob,
@@ -38,5 +40,6 @@ export default {
   CycleQueue,
   LinkedList,
   DoublyLinkedList,
+  Set,
   extend,
 }
