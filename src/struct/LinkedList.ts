@@ -37,6 +37,13 @@ export class LinkedList {
     this.length++
   }
   /**
+   * append 别名方法
+   * @param element
+   */
+  push(element: any) {
+    this.append(element)
+  }
+  /**
    * 向链表指定位置插入一个新的项
    * @param position 位置
    * @param element 项
@@ -73,7 +80,7 @@ export class LinkedList {
     let current = this.head,
       index = 0
     if (position === 0) {
-      if(current === null) {
+      if (current === null) {
         return
       } else {
         return current?.element
