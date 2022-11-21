@@ -1,11 +1,16 @@
 /**
  * 节流函数
  * @param {Function} fn
- * @param {number} wait
+ * @param {Number} wait
+ * @param {Boolean} immediate 是否立即触发函数
  * @returns Function
  */
-export const throttle = (fn: Function, wait: number = 300) => {
-  let inThrottle: boolean,
+export const throttle = (
+  fn: Function,
+  wait: number = 300,
+  immediate = false
+) => {
+  let inThrottle = !immediate,
     lastFn: ReturnType<typeof setTimeout>,
     lastTime: number
   return function (this: any) {
