@@ -11,6 +11,7 @@ import { LinkedList } from './struct/LinkedList'
 import { DoublyLinkedList } from './struct/DoublyLinkedList'
 import { Set } from './struct/Set'
 import { Dictionary } from './struct/Dictionary'
+import { HashTable } from './struct/HasTable'
 
 import { extend } from './extend'
 
@@ -25,6 +26,7 @@ export {
   DoublyLinkedList,
   Set,
   Dictionary,
+  HashTable,
   extend,
   downloadFile,
   downloadFileWithBlob,
@@ -44,5 +46,6 @@ export default {
   DoublyLinkedList,
   Set,
   Dictionary,
+  HashTable,
   extend,
 }
