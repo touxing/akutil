@@ -6,7 +6,12 @@ import { throttle } from './throttle'
 import { downloadFile, downloadFileWithBlob, downloadImage } from './file/file'
 
 import { Stack } from './struct/Stack'
-import { Queue, PriorityQueue, CycleQueue } from './struct/Queue'
+import {
+  Queue,
+  PriorityQueue,
+  CycleQueue,
+  DoubleEndQueue,
+} from './struct/Queue'
 import { LinkedList } from './struct/LinkedList'
 import { DoublyLinkedList } from './struct/DoublyLinkedList'
 import { Set } from './struct/Set'
@@ -22,6 +27,7 @@ export {
   Queue,
   PriorityQueue,
   CycleQueue,
+  DoubleEndQueue,
   LinkedList,
   DoublyLinkedList,
   Set,
@@ -42,6 +48,7 @@ export default {
   Queue,
   PriorityQueue,
   CycleQueue,
+  DoubleEndQueue,
   LinkedList,
   DoublyLinkedList,
   Set,

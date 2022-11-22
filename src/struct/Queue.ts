@@ -18,7 +18,7 @@ export class Queue {
   dequeue() {
     return this.queue.shift()
   }
-  front() {
+  peek() {
     return this.queue[0]
   }
   print() {
@@ -27,20 +27,18 @@ export class Queue {
 }
 
 /**
- * todo: 队列元素
- * @param this
+ *  优先队列元素
  * @param element
  * @param priority
  */
-function QueueElement(this: any, element: any, priority: number) {
-  this.element = element
-  this.priority = priority
+class PriorityQueueNode {
+  constructor(public element: any, public priority: number) {}
 }
 /**
  * 优先队列
  */
 export class PriorityQueue {
-  private queue: Array<{ value: any; priority: number }>
+  private queue: Array<PriorityQueueNode>
 
   constructor() {
     this.queue = []
@@ -59,7 +57,8 @@ export class PriorityQueue {
     while (this.size() && priority > this.queue[position - 1]?.priority) {
       position--
     }
-    this.queue.splice(position, 0, { value, priority })
+    let node = new PriorityQueueNode(value, priority)
+    this.queue.splice(position, 0, node)
   }
   /**
    * 入队列，最小优先原则
@@ -71,13 +70,14 @@ export class PriorityQueue {
         position = i + 1
       }
     }
-    this.queue.splice(position, 0, { value, priority })
+    let node = new PriorityQueueNode(value, priority)
+    this.queue.splice(position, 0, node)
   }
   dequeue() {
-    return this.queue.shift()?.value
+    return this.queue.shift()?.element
   }
-  front() {
-    return this.queue[0]?.value
+  peek() {
+    return this.queue[0]?.element
   }
   clear() {
     this.queue = []
@@ -148,5 +148,115 @@ export class CycleQueue {
   }
   print() {
     console.log(this.queue)
+  }
+}
+
+interface Iqueue {
+  [x: string]: any
+}
+export class DoubleEndQueue {
+  protected count: number // 控制队列大小
+  protected lowestCount: number // 追踪第一个元素
+  private queue: Iqueue // 可以使用数组，这里使用对象，获取元素更高效
+  constructor() {
+    this.count = 0
+    this.lowestCount = 0
+    this.queue = {}
+  }
+
+  size() {
+    return this.count - this.lowestCount
+  }
+  isEmpty() {
+    return this.size() === 0
+  }
+  enqueue(element: any) {
+    this.queue[this.count] = element
+    this.count++
+  }
+  dequeue() {
+    if (this.isEmpty()) return
+    const result = this.queue[this.lowestCount]
+    delete this.queue[this.lowestCount]
+    this.lowestCount++
+    return result
+  }
+  peek() {
+    if (this.isEmpty()) {
+      return
+    }
+    return this.queue[this.lowestCount]
+  }
+  clear() {
+    this.queue = {}
+    this.count = 0
+    this.lowestCount = 0
+  }
+  toString() {
+    if (this.isEmpty()) {
+      return ''
+    }
+    let objString = `${this.queue[this.lowestCount]}`
+    for (let i = this.lowestCount + 1; i < this.count; i++) {
+      objString = `${objString},${this.queue[i]}`
+    }
+    return objString
+  }
+
+  /**
+   * 在双端队列前端添加新元素
+   * @param element
+   */
+  addFront(element: any) {
+    if (this.isEmpty()) {
+      this.addBack(element)
+    } else if (this.lowestCount > 0) {
+      this.lowestCount--
+      this.queue[this.lowestCount] = element
+    } else {
+      for (let i = this.count; i > 0; i--) {
+        // 队列往后移动，给新元素在头部留一个位置
+        this.queue[i] = this.queue[i - 1]
+      }
+      this.count++
+      this.lowestCount = 0
+      this.queue[this.lowestCount] = element
+    }
+  }
+  /**
+   * 在双端队列尾端添加新元素
+   * @param element
+   */
+  addBack(element: any) {
+    return this.enqueue(element)
+  }
+  /**
+   * removes the first element from the front of the DoubleEndQueue
+   */
+  removeFront() {
+    return this.dequeue()
+  }
+  /**
+   * removes the first element from the back of the DoubleEndQueue
+   */
+  removeBack() {
+    if(this.isEmpty()) return
+    const result = this.queue[this.count-1]
+    delete this.queue[this.count-1]
+    this.count--
+    return result
+  }
+  /**
+   * 返回双端队列前端的第一个元素
+   */
+  peekFront() {
+    return this.peek()
+  }
+  /**
+   * 返回双端队列尾端的第一个元素
+   */
+  peekBack() {
+    if(this.isEmpty()) return
+    return this.queue[this.count-1]
   }
 }
