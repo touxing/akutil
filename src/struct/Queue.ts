@@ -214,8 +214,9 @@ export class DoubleEndQueue {
       this.lowestCount--
       this.queue[this.lowestCount] = element
     } else {
+      // 队列往后移动，给新元素在头部留一个位置
+      // 这里也可以不移动，对象的索引可以为负数
       for (let i = this.count; i > 0; i--) {
-        // 队列往后移动，给新元素在头部留一个位置
         this.queue[i] = this.queue[i - 1]
       }
       this.count++
