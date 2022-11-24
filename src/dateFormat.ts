@@ -1,5 +1,3 @@
-import '../types/global'
-
 if (!String.prototype.repeat) {
   String.prototype.repeat = function (count: number, seperator: string = '') {
     var a = new Array(count)

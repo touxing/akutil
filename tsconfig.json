@@ -8,14 +8,15 @@
     "sourceMap": true,
     "declaration": true,
     "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
+    "experimentalDecorators": true, // 开启装饰器
     "emitDecoratorMetadata": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "declarationDir": "dist/types",
     "outDir": "dist/lib",
     "typeRoots": [
-      "node_modules/@types"
+      "node_modules/@types",
+      "./types/"
     ]
   },
   "include": [

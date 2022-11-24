@@ -1,3 +1,11 @@
+import { isDef, isUnDef } from './isDef'
+import isNull from './isNull'
+import isNil from './isNil'
+import isObject from './isObject'
+import isPlainObject from './isPlainObject'
+import { isPromise } from './isPromise'
+import { formatDate, extendDate } from './dateFormat'
+
 // 防抖与节流
 import { debounce } from './debounce'
 import { throttle } from './throttle'
@@ -19,8 +27,21 @@ import { Dictionary } from './struct/Dictionary'
 import { HashTable } from './struct/HasTable'
 
 import { extend } from './extend'
+import { safeGetter } from './safeGetter'
+import { safeSetter } from './safeSetter'
 
 export {
+  isDef,
+  isUnDef,
+  isNull,
+  isNil,
+  isObject,
+  isPlainObject,
+  isPromise,
+  extendDate,
+  formatDate,
+  safeGetter,
+  safeSetter,
   debounce,
   throttle,
   Stack,
@@ -39,6 +60,17 @@ export {
   downloadImage,
 }
 export default {
+  isDef,
+  isUnDef,
+  isNull,
+  isNil,
+  isObject,
+  isPlainObject,
+  isPromise,
+  extendDate,
+  formatDate,
+  safeGetter,
+  safeSetter,
   debounce,
   throttle,
   downloadFile,
