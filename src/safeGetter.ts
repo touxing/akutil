@@ -4,7 +4,7 @@ import isObject from './isObject'
 /**
  * 安全获取对象属性，不存在的对象不会报异常
  * @param {Object} obj 目标字对象
- * @param {String} key 点字符串，eg: 'key1.key2'
+ * @param {string} key 点字符串，eg: 'key1.key2'
  * @returns 获取对象属性值，不存在返回undefined
  */
 export function safeGetter(obj: AnyObject, key: string) {

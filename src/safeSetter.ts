@@ -4,7 +4,7 @@ import { AnyObject } from '../types'
 /**
  * @desc 安全设置对象属性，不存在的属性，不会报异常
  * @param {Object} obj
- * @param {String} key 点字符串，eg: 'key1.key2'
+ * @param {string} key 点字符串，eg: 'key1.key2'
  * @param {*} value
  * @returns 对象属性值，成功返回true，失败返回false
  */

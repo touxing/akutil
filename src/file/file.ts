@@ -3,7 +3,7 @@
  * @param {Promise} 下载接口ajax
  * @param {Object} 下载参数
  * @param {String} 文件名
- * @returns {Promise} 下载完文件的then
+ * @returns {Promise} 下载完文件的promise
  */
 function downloadFileBlob(downloadAjax: any): Promise<any>
 function downloadFileBlob(downloadAjax: any, params: any): Promise<any>

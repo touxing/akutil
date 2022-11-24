@@ -154,6 +154,7 @@ export class CycleQueue {
 interface Iqueue {
   [x: string]: any
 }
+
 export class DoubleEndQueue {
   protected count: number // 控制队列大小
   protected lowestCount: number // 追踪第一个元素
