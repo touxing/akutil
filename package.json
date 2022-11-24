@@ -1,6 +1,6 @@
 {
   "name": "@hotsuitor/akutil",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Common web development tools functions. 封装日常开发常用的工具函数",
   "main": "dist/akutil.umd.js",
   "module": "dist/akutil.es5.js",
