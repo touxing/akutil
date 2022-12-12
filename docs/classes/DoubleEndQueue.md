@@ -1,4 +1,4 @@
-[@hotsuitor/akutil - v0.0.1](../README.md) / [Exports](../modules.md) / DoubleEndQueue
+[@hotsuitor/akutil - v0.0.2](../README.md) / [Exports](../modules.md) / DoubleEndQueue
 
 # Class: DoubleEndQueue
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:162](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L162)
+[src/struct/Queue.ts:162](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L162)
 
 ## Properties
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:159](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L159)
+[src/struct/Queue.ts:159](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L159)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:160](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L160)
+[src/struct/Queue.ts:160](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L160)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:161](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L161)
+[src/struct/Queue.ts:161](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L161)
 
 ## Methods
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:232](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L232)
+[src/struct/Queue.ts:232](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L232)
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:211](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L211)
+[src/struct/Queue.ts:211](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L211)
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:191](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L191)
+[src/struct/Queue.ts:191](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L191)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:178](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L178)
+[src/struct/Queue.ts:178](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L178)
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:174](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L174)
+[src/struct/Queue.ts:174](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L174)
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:171](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L171)
+[src/struct/Queue.ts:171](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L171)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:185](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L185)
+[src/struct/Queue.ts:185](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L185)
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:260](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L260)
+[src/struct/Queue.ts:260](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L260)
 
 ___
 
@@ -220,7 +220,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:254](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L254)
+[src/struct/Queue.ts:254](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L254)
 
 ___
 
@@ -236,7 +236,7 @@ removes the first element from the back of the DoubleEndQueue
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:244](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L244)
+[src/struct/Queue.ts:244](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L244)
 
 ___
 
@@ -252,7 +252,7 @@ removes the first element from the front of the DoubleEndQueue
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:238](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L238)
+[src/struct/Queue.ts:238](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L238)
 
 ___
 
@@ -266,7 +266,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:168](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L168)
+[src/struct/Queue.ts:168](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L168)
 
 ___
 
@@ -280,4 +280,4 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:196](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L196)
+[src/struct/Queue.ts:196](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L196)

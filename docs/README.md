@@ -1,4 +1,4 @@
-@hotsuitor/akutil - v0.0.1 / [Exports](modules.md)
+@hotsuitor/akutil - v0.0.2 / [Exports](modules.md)
 
 [TOC]
 

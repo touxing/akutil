@@ -1,5 +1,5 @@
 /**
- * @desc 读取文件流，下载文件
+ * 读取文件流，下载文件
  * @param {Promise} 下载接口ajax
  * @param {Object} 下载参数
  * @param {String} 文件名
@@ -56,7 +56,7 @@ function downloadFileBlob(
 export let downloadFileWithBlob = downloadFileBlob
 
 /**
- * @desc 通过打开新窗口下载文件内容
+ * 通过打开新窗口下载文件内容
  * @param {string} url
  * @param {function} callback
  */

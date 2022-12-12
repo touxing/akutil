@@ -1,4 +1,4 @@
-[@hotsuitor/akutil - v0.0.1](../README.md) / [Exports](../modules.md) / [<internal\>](../modules/internal_.md) / PriorityQueueNode
+[@hotsuitor/akutil - v0.0.2](../README.md) / [Exports](../modules.md) / [<internal\>](../modules/internal_.md) / PriorityQueueNode
 
 # Class: PriorityQueueNode
 
@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:35](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L35)
+[src/struct/Queue.ts:35](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L35)
 
 ## Properties
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:35](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L35)
+[src/struct/Queue.ts:35](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L35)
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:35](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L35)
+[src/struct/Queue.ts:35](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L35)

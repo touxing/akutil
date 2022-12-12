@@ -2,7 +2,7 @@ import isObject from './isObject'
 import { AnyObject } from '../types'
 
 /**
- * @desc 安全设置对象属性，不存在的属性，不会报异常
+ * 安全设置对象属性，不存在的属性，不会报异常
  * @param {Object} obj
  * @param {string} key 点字符串，eg: 'key1.key2'
  * @param {*} value

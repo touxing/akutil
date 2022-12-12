@@ -1,4 +1,4 @@
-[@hotsuitor/akutil - v0.0.1](../README.md) / [Exports](../modules.md) / Set
+[@hotsuitor/akutil - v0.0.2](../README.md) / [Exports](../modules.md) / Set
 
 # Class: Set
 
@@ -35,7 +35,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:7](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L7)
+[src/struct/Set.ts:7](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L7)
 
 ## Properties
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:6](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L6)
+[src/struct/Set.ts:6](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L6)
 
 ## Methods
 
@@ -69,7 +69,7 @@ if add successfuly return true, else return false
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:26](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L26)
+[src/struct/Set.ts:26](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L26)
 
 ___
 
@@ -87,7 +87,7 @@ void
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:85](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L85)
+[src/struct/Set.ts:85](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L85)
 
 ___
 
@@ -111,7 +111,7 @@ if delete successfuly return true, else return false
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:39](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L39)
+[src/struct/Set.ts:39](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L39)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:128](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L128)
+[src/struct/Set.ts:128](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L128)
 
 ___
 
@@ -157,7 +157,7 @@ if has element return true, else return fase
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:16](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L16)
+[src/struct/Set.ts:16](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L16)
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:106](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L106)
+[src/struct/Set.ts:106](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L106)
 
 ___
 
@@ -205,7 +205,7 @@ if 子集 return true, else return false
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:144](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L144)
+[src/struct/Set.ts:144](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L144)
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:51](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L51)
+[src/struct/Set.ts:51](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L51)
 
 ___
 
@@ -235,7 +235,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:55](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L55)
+[src/struct/Set.ts:55](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L55)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:94](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L94)
+[src/struct/Set.ts:94](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L94)
 
 ___
 
@@ -275,7 +275,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:68](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L68)
+[src/struct/Set.ts:68](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L68)
 
 ___
 
@@ -289,4 +289,4 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Set.ts:71](https://github.com/touxing/akutil/blob/6013b22/src/struct/Set.ts#L71)
+[src/struct/Set.ts:71](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Set.ts#L71)

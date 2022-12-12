@@ -1,4 +1,4 @@
-[@hotsuitor/akutil - v0.0.1](../README.md) / [Exports](../modules.md) / [<internal\>](../modules/internal_.md) / DoublyNode
+[@hotsuitor/akutil - v0.0.2](../README.md) / [Exports](../modules.md) / [<internal\>](../modules/internal_.md) / DoublyNode
 
 # Class: DoublyNode
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:10](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L10)
+[src/struct/DoublyLinkedList.ts:10](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L10)
 
 ## Properties
 
@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:7](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L7)
+[src/struct/DoublyLinkedList.ts:7](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L7)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:8](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L8)
+[src/struct/DoublyLinkedList.ts:8](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L8)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:9](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L9)
+[src/struct/DoublyLinkedList.ts:9](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L9)

@@ -1,4 +1,4 @@
-[@hotsuitor/akutil - v0.0.1](../README.md) / [Exports](../modules.md) / [<internal\>](../modules/internal_.md) / Iqueue
+[@hotsuitor/akutil - v0.0.2](../README.md) / [Exports](../modules.md) / [<internal\>](../modules/internal_.md) / Iqueue
 
 # Interface: Iqueue
 

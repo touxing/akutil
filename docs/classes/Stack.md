@@ -1,4 +1,4 @@
-[@hotsuitor/akutil - v0.0.1](../README.md) / [Exports](../modules.md) / Stack
+[@hotsuitor/akutil - v0.0.2](../README.md) / [Exports](../modules.md) / Stack
 
 # Class: Stack
 
@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Stack.ts:6](https://github.com/touxing/akutil/blob/6013b22/src/struct/Stack.ts#L6)
+[src/struct/Stack.ts:6](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Stack.ts#L6)
 
 ## Properties
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Stack.ts:5](https://github.com/touxing/akutil/blob/6013b22/src/struct/Stack.ts#L5)
+[src/struct/Stack.ts:5](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Stack.ts#L5)
 
 ## Methods
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Stack.ts:25](https://github.com/touxing/akutil/blob/6013b22/src/struct/Stack.ts#L25)
+[src/struct/Stack.ts:25](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Stack.ts#L25)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Stack.ts:9](https://github.com/touxing/akutil/blob/6013b22/src/struct/Stack.ts#L9)
+[src/struct/Stack.ts:9](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Stack.ts#L9)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Stack.ts:21](https://github.com/touxing/akutil/blob/6013b22/src/struct/Stack.ts#L21)
+[src/struct/Stack.ts:21](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Stack.ts#L21)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Stack.ts:18](https://github.com/touxing/akutil/blob/6013b22/src/struct/Stack.ts#L18)
+[src/struct/Stack.ts:18](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Stack.ts#L18)
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Stack.ts:28](https://github.com/touxing/akutil/blob/6013b22/src/struct/Stack.ts#L28)
+[src/struct/Stack.ts:28](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Stack.ts#L28)
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Stack.ts:15](https://github.com/touxing/akutil/blob/6013b22/src/struct/Stack.ts#L15)
+[src/struct/Stack.ts:15](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Stack.ts#L15)
 
 ___
 
@@ -146,4 +146,4 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Stack.ts:12](https://github.com/touxing/akutil/blob/6013b22/src/struct/Stack.ts#L12)
+[src/struct/Stack.ts:12](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Stack.ts#L12)

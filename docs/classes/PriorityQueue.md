@@ -1,4 +1,4 @@
-[@hotsuitor/akutil - v0.0.1](../README.md) / [Exports](../modules.md) / PriorityQueue
+[@hotsuitor/akutil - v0.0.2](../README.md) / [Exports](../modules.md) / PriorityQueue
 
 # Class: PriorityQueue
 
@@ -33,7 +33,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:43](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L43)
+[src/struct/Queue.ts:43](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L43)
 
 ## Properties
 
@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:41](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L41)
+[src/struct/Queue.ts:41](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L41)
 
 ## Methods
 
@@ -57,7 +57,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:82](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L82)
+[src/struct/Queue.ts:82](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L82)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:76](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L76)
+[src/struct/Queue.ts:76](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L76)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:53](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L53)
+[src/struct/Queue.ts:53](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L53)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:66](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L66)
+[src/struct/Queue.ts:66](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L66)
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:47](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L47)
+[src/struct/Queue.ts:47](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L47)
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:79](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L79)
+[src/struct/Queue.ts:79](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L79)
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:85](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L85)
+[src/struct/Queue.ts:85](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L85)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:50](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L50)
+[src/struct/Queue.ts:50](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L50)

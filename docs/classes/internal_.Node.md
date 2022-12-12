@@ -1,4 +1,4 @@
-[@hotsuitor/akutil - v0.0.1](../README.md) / [Exports](../modules.md) / [<internal\>](../modules/internal_.md) / Node
+[@hotsuitor/akutil - v0.0.2](../README.md) / [Exports](../modules.md) / [<internal\>](../modules/internal_.md) / Node
 
 # Class: Node
 
@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[akutil/src/struct/LinkedList.ts:5](https://github.com/touxing/akutil/blob/6013b22/src/struct/LinkedList.ts#L5)
+[src/struct/LinkedList.ts:5](https://github.com/touxing/akutil/blob/4b7e940/src/struct/LinkedList.ts#L5)
 
 ## Properties
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[akutil/src/struct/LinkedList.ts:5](https://github.com/touxing/akutil/blob/6013b22/src/struct/LinkedList.ts#L5)
+[src/struct/LinkedList.ts:5](https://github.com/touxing/akutil/blob/4b7e940/src/struct/LinkedList.ts#L5)
 
 ___
 
@@ -52,4 +52,4 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/LinkedList.ts:5](https://github.com/touxing/akutil/blob/6013b22/src/struct/LinkedList.ts#L5)
+[src/struct/LinkedList.ts:5](https://github.com/touxing/akutil/blob/4b7e940/src/struct/LinkedList.ts#L5)

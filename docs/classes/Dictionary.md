@@ -1,4 +1,4 @@
-[@hotsuitor/akutil - v0.0.1](../README.md) / [Exports](../modules.md) / Dictionary
+[@hotsuitor/akutil - v0.0.2](../README.md) / [Exports](../modules.md) / Dictionary
 
 # Class: Dictionary
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:21](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L21)
+[src/struct/Dictionary.ts:21](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L21)
 
 ## Properties
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:20](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L20)
+[src/struct/Dictionary.ts:20](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L20)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:19](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L19)
+[src/struct/Dictionary.ts:19](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L19)
 
 ## Methods
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:70](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L70)
+[src/struct/Dictionary.ts:70](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L70)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:107](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L107)
+[src/struct/Dictionary.ts:107](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L107)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:52](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L52)
+[src/struct/Dictionary.ts:52](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L52)
 
 ___
 
@@ -160,7 +160,7 @@ if has return true, else return false
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:31](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L31)
+[src/struct/Dictionary.ts:31](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L31)
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:79](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L79)
+[src/struct/Dictionary.ts:79](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L79)
 
 ___
 
@@ -192,7 +192,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:100](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L100)
+[src/struct/Dictionary.ts:100](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L100)
 
 ___
 
@@ -208,7 +208,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:86](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L86)
+[src/struct/Dictionary.ts:86](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L86)
 
 ___
 
@@ -230,7 +230,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:60](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L60)
+[src/struct/Dictionary.ts:60](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L60)
 
 ___
 
@@ -253,7 +253,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:40](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L40)
+[src/struct/Dictionary.ts:40](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L40)
 
 ___
 
@@ -267,7 +267,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:73](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L73)
+[src/struct/Dictionary.ts:73](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L73)
 
 ___
 
@@ -281,7 +281,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:118](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L118)
+[src/struct/Dictionary.ts:118](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L118)
 
 ___
 
@@ -297,4 +297,4 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Dictionary.ts:93](https://github.com/touxing/akutil/blob/6013b22/src/struct/Dictionary.ts#L93)
+[src/struct/Dictionary.ts:93](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Dictionary.ts#L93)

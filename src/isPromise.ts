@@ -1,5 +1,5 @@
 /**
- * 判断是否 promise
+ * 是否 promise 类型
  * @param v
  * @returns {boolean}
  */

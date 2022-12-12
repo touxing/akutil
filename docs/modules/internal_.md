@@ -1,4 +1,4 @@
-[@hotsuitor/akutil - v0.0.1](../README.md) / [Exports](../modules.md) / <internal\>
+[@hotsuitor/akutil - v0.0.2](../README.md) / [Exports](../modules.md) / <internal\>
 
 # Module: <internal\>
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[akutil/types/index.d.ts:7](https://github.com/touxing/akutil/blob/6013b22/types/index.d.ts#L7)
+[types/index.d.ts:7](https://github.com/touxing/akutil/blob/4b7e940/types/index.d.ts#L7)
 
 ___
 
@@ -49,4 +49,4 @@ Construct a type with a set of properties K of type T
 
 #### Defined in
 
-AKUtil/node_modules/.pnpm/registry.npmmirror.com+typescript@4.8.4/node_modules/typescript/lib/lib.es5.d.ts:1577
+node_modules/.pnpm/typescript@4.8.4/node_modules/typescript/lib/lib.es5.d.ts:1577

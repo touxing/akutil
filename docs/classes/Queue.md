@@ -1,4 +1,4 @@
-[@hotsuitor/akutil - v0.0.1](../README.md) / [Exports](../modules.md) / Queue
+[@hotsuitor/akutil - v0.0.2](../README.md) / [Exports](../modules.md) / Queue
 
 # Class: Queue
 
@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:6](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L6)
+[src/struct/Queue.ts:6](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L6)
 
 ## Properties
 
@@ -41,7 +41,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:5](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L5)
+[src/struct/Queue.ts:5](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L5)
 
 ## Methods
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:18](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L18)
+[src/struct/Queue.ts:18](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L18)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:15](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L15)
+[src/struct/Queue.ts:15](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L15)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:9](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L9)
+[src/struct/Queue.ts:9](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L9)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:21](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L21)
+[src/struct/Queue.ts:21](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L21)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:24](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L24)
+[src/struct/Queue.ts:24](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L24)
 
 ___
 
@@ -131,4 +131,4 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/Queue.ts:12](https://github.com/touxing/akutil/blob/6013b22/src/struct/Queue.ts#L12)
+[src/struct/Queue.ts:12](https://github.com/touxing/akutil/blob/4b7e940/src/struct/Queue.ts#L12)

@@ -1,4 +1,4 @@
-[@hotsuitor/akutil - v0.0.1](../README.md) / [Exports](../modules.md) / DoublyLinkedList
+[@hotsuitor/akutil - v0.0.2](../README.md) / [Exports](../modules.md) / DoublyLinkedList
 
 # Class: DoublyLinkedList
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:20](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L20)
+[src/struct/DoublyLinkedList.ts:20](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L20)
 
 ## Properties
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:18](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L18)
+[src/struct/DoublyLinkedList.ts:18](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L18)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/LinkedList.ts:9](https://github.com/touxing/akutil/blob/6013b22/src/struct/LinkedList.ts#L9)
+[src/struct/LinkedList.ts:9](https://github.com/touxing/akutil/blob/4b7e940/src/struct/LinkedList.ts#L9)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:19](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L19)
+[src/struct/DoublyLinkedList.ts:19](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L19)
 
 ## Methods
 
@@ -112,7 +112,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:25](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L25)
+[src/struct/DoublyLinkedList.ts:25](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L25)
 
 ___
 
@@ -140,7 +140,7 @@ Node|undefined
 
 #### Defined in
 
-[akutil/src/struct/LinkedList.ts:78](https://github.com/touxing/akutil/blob/6013b22/src/struct/LinkedList.ts#L78)
+[src/struct/LinkedList.ts:78](https://github.com/touxing/akutil/blob/4b7e940/src/struct/LinkedList.ts#L78)
 
 ___
 
@@ -162,7 +162,7 @@ element
 
 #### Defined in
 
-[akutil/src/struct/LinkedList.ts:174](https://github.com/touxing/akutil/blob/6013b22/src/struct/LinkedList.ts#L174)
+[src/struct/LinkedList.ts:174](https://github.com/touxing/akutil/blob/4b7e940/src/struct/LinkedList.ts#L174)
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:143](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L143)
+[src/struct/DoublyLinkedList.ts:143](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L143)
 
 ___
 
@@ -204,7 +204,7 @@ return index, if not found, return `-1`
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:131](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L131)
+[src/struct/DoublyLinkedList.ts:131](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L131)
 
 ___
 
@@ -231,7 +231,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:41](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L41)
+[src/struct/DoublyLinkedList.ts:41](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L41)
 
 ___
 
@@ -249,7 +249,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/LinkedList.ts:16](https://github.com/touxing/akutil/blob/6013b22/src/struct/LinkedList.ts#L16)
+[src/struct/LinkedList.ts:16](https://github.com/touxing/akutil/blob/4b7e940/src/struct/LinkedList.ts#L16)
 
 ___
 
@@ -267,7 +267,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:146](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L146)
+[src/struct/DoublyLinkedList.ts:146](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L146)
 
 ___
 
@@ -293,7 +293,7 @@ append 别名方法
 
 #### Defined in
 
-[akutil/src/struct/LinkedList.ts:43](https://github.com/touxing/akutil/blob/6013b22/src/struct/LinkedList.ts#L43)
+[src/struct/LinkedList.ts:43](https://github.com/touxing/akutil/blob/4b7e940/src/struct/LinkedList.ts#L43)
 
 ___
 
@@ -319,7 +319,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:123](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L123)
+[src/struct/DoublyLinkedList.ts:123](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L123)
 
 ___
 
@@ -347,7 +347,7 @@ element 删除的项目
 
 #### Defined in
 
-[akutil/src/struct/DoublyLinkedList.ts:93](https://github.com/touxing/akutil/blob/6013b22/src/struct/DoublyLinkedList.ts#L93)
+[src/struct/DoublyLinkedList.ts:93](https://github.com/touxing/akutil/blob/4b7e940/src/struct/DoublyLinkedList.ts#L93)
 
 ___
 
@@ -365,7 +365,7 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/LinkedList.ts:19](https://github.com/touxing/akutil/blob/6013b22/src/struct/LinkedList.ts#L19)
+[src/struct/LinkedList.ts:19](https://github.com/touxing/akutil/blob/4b7e940/src/struct/LinkedList.ts#L19)
 
 ___
 
@@ -383,4 +383,4 @@ ___
 
 #### Defined in
 
-[akutil/src/struct/LinkedList.ts:177](https://github.com/touxing/akutil/blob/6013b22/src/struct/LinkedList.ts#L177)
+[src/struct/LinkedList.ts:177](https://github.com/touxing/akutil/blob/4b7e940/src/struct/LinkedList.ts#L177)

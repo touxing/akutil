@@ -1,6 +1,6 @@
-[@hotsuitor/akutil - v0.0.1](README.md) / Exports
+[@hotsuitor/akutil - v0.0.2](README.md) / Exports
 
-# @hotsuitor/akutil - v0.0.1
+# @hotsuitor/akutil - v0.0.2
 
 ## Table of contents
 
@@ -166,7 +166,7 @@ Renames and re-exports [__type](modules.md#__type)
 
 #### Defined in
 
-[akutil/src/akutil.ts:62](https://github.com/touxing/akutil/blob/6013b22/src/akutil.ts#L62)
+[src/akutil.ts:62](https://github.com/touxing/akutil/blob/4b7e940/src/akutil.ts#L62)
 
 ## Functions
 
@@ -187,7 +187,7 @@ Renames and re-exports [__type](modules.md#__type)
 
 `fn`
 
-▸ (`this`, ...`args`): `void`
+▸ (`this`, `...args`): `void`
 
 ##### Parameters
 
@@ -202,15 +202,13 @@ Renames and re-exports [__type](modules.md#__type)
 
 #### Defined in
 
-[akutil/src/debounce.ts:7](https://github.com/touxing/akutil/blob/6013b22/src/debounce.ts#L7)
+[src/debounce.ts:7](https://github.com/touxing/akutil/blob/4b7e940/src/debounce.ts#L7)
 
 ___
 
 ### downloadFileWithBlob
 
 ▸ **downloadFileWithBlob**(`downloadAjax`): `Promise`<`any`\>
-
-**`Desc`**
 
 读取文件流，下载文件
 
@@ -228,7 +226,7 @@ ___
 
 #### Defined in
 
-[akutil/src/file/file.ts:8](https://github.com/touxing/akutil/blob/6013b22/src/file/file.ts#L8)
+[src/file/file.ts:8](https://github.com/touxing/akutil/blob/4b7e940/src/file/file.ts#L8)
 
 ▸ **downloadFileWithBlob**(`downloadAjax`, `params`): `Promise`<`any`\>
 
@@ -245,7 +243,7 @@ ___
 
 #### Defined in
 
-[akutil/src/file/file.ts:9](https://github.com/touxing/akutil/blob/6013b22/src/file/file.ts#L9)
+[src/file/file.ts:9](https://github.com/touxing/akutil/blob/4b7e940/src/file/file.ts#L9)
 
 ▸ **downloadFileWithBlob**(`downloadAjax`, `params`, `filename`): `Promise`<`any`\>
 
@@ -263,7 +261,7 @@ ___
 
 #### Defined in
 
-[akutil/src/file/file.ts:10](https://github.com/touxing/akutil/blob/6013b22/src/file/file.ts#L10)
+[src/file/file.ts:10](https://github.com/touxing/akutil/blob/4b7e940/src/file/file.ts#L10)
 
 ___
 
@@ -271,7 +269,7 @@ ___
 
 ▸ **isPromise**(`v`): `boolean`
 
-判断是否 promise
+是否 promise 类型
 
 #### Parameters
 
@@ -285,7 +283,7 @@ ___
 
 #### Defined in
 
-[akutil/src/isPromise.ts:6](https://github.com/touxing/akutil/blob/6013b22/src/isPromise.ts#L6)
+[src/isPromise.ts:6](https://github.com/touxing/akutil/blob/4b7e940/src/isPromise.ts#L6)
 
 ___
 
@@ -323,4 +321,4 @@ Function
 
 #### Defined in
 
-[akutil/src/throttle.ts:8](https://github.com/touxing/akutil/blob/6013b22/src/throttle.ts#L8)
+[src/throttle.ts:8](https://github.com/touxing/akutil/blob/4b7e940/src/throttle.ts#L8)
