@@ -1,34 +1,34 @@
 module.exports = {
-  parser: 'babel',
-  trailingComma: 'es5',
+  parser: "babel",
+  trailingComma: "es5",
   semi: false,
-  singleQuote: true,
+  singleQuote: false,
   printWidth: 80,
   tabWidth: 2,
-  arrowParens: 'always',
+  arrowParens: "always",
   overrides: [
     {
-      files: ['*.ts'],
+      files: ["*.ts"],
       options: {
-        parser: 'typescript',
+        parser: "typescript",
       },
     },
     {
-      files: ['*.json'],
+      files: ["*.json"],
       options: {
-        parser: 'json5',
+        parser: "json5",
       },
     },
     {
-      files: ['*.yml', '*.yaml'],
+      files: ["*.yml", "*.yaml"],
       options: {
-        parser: 'yaml',
+        parser: "yaml",
       },
     },
     {
-      files: ['*.md'],
+      files: ["*.md"],
       options: {
-        parser: 'markdown',
+        parser: "markdown",
       },
     },
   ],

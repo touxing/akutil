@@ -4,3 +4,5 @@ isBuffer.ts
 nodeTypes.ts
 pnpm-lock.yaml
 package-lock.json
+tsconfig.json
+typedoc.json
