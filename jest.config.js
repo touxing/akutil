@@ -1,12 +1,13 @@
 module.exports = {
   verbose: true,
-  roots: ['<rootDir>/src/', '<rootDir>/__tests__/'],
+  roots: ["<rootDir>/src/", "<rootDir>/__tests__/"],
   testMatch: [
-    '**/__tests__/**/*.+(ts|tsx|js)',
-    '**/?(*.)+(spec|test).+(ts|tsx|js)',
+    "**/__tests__/**/*.+(ts|tsx|js)",
+    "**/?(*.)+(spec|test).+(ts|tsx|js)",
   ],
+  testPathIgnorePatterns: ["/node_modules/", "helper.ts"],
   transform: {
-    '^.+\\.(ts|tsx)$': 'ts-jest',
+    "^.+\\.(ts|tsx)$": "ts-jest",
   },
   collectCoverage: true,
   coverageThreshold: {
@@ -20,6 +21,6 @@ module.exports = {
   // 引入其他功能，入口执行脚本
   // setupFilesAfterEnv: ['<rootDir>/__tests__/setup.ts'],
   globals: {
-    'ts-test': {},
+    "ts-test": {},
   },
 }

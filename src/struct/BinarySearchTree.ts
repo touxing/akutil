@@ -1,13 +1,18 @@
-import { Node } from './Tree'
+import { Node } from "./Tree"
 
+type NodeType = Node | null
 /**
  * 二叉搜索树
  */
 export class BinarySearchTree {
-  root: Node | null
+  protected root: NodeType
   constructor() {
     this.root = null
   }
+  /**
+   * 插入节点
+   * @param key
+   */
   insert(key: any) {
     let newNode = new Node(key)
     if (this.root === null) {
@@ -16,7 +21,7 @@ export class BinarySearchTree {
       this.insertNode(this.root, newNode)
     }
   }
-  insertNode(node: Node, newNode: Node) {
+  protected insertNode(node: Node, newNode: Node) {
     if (newNode.key < node.key) {
       if (node.left === null) {
         node.left = newNode
@@ -32,11 +37,89 @@ export class BinarySearchTree {
     }
   }
 
-  search(key: any) {}
-  inOrderTraverse() {}
-  preOrderTraverse() {}
-  postOrderTraverse() {}
-  min() {}
-  max() {}
+  /**
+   *
+   * @param key
+   */
+  search(key: any): boolean {
+    return this.searchNode(this.root, key)
+  }
+  protected searchNode(node: NodeType, key: any): boolean {
+    if (node === null) return false
+    if (key < node.key) {
+      return this.searchNode(node.left, key)
+    } else if (key > node.key) {
+      return this.searchNode(node.right, key)
+    } else {
+      return true
+    }
+  }
+  /**
+   * 中序遍历
+   * @param callback
+   */
+  inOrderTraverse(callback: (value: any) => void) {
+    this.inOrderTraverseNode(this.root, callback)
+  }
+  /**
+   * 前序遍历
+   * @param callback
+   */
+  preOrderTraverse(callback: (value: any) => void) {
+    this.preOrderTraverseNode(this.root, callback)
+  }
+  /**
+   * 后序遍历
+   * @param callback
+   */
+  postOrderTraverse(callback: (value: any) => void) {
+    this.postOrderTraverseNode(this.root, callback)
+  }
+  protected inOrderTraverseNode(node: NodeType, callback: (key: any) => void) {
+    if (node !== null) {
+      this.inOrderTraverseNode(node.left, callback)
+      callback(node.key)
+      this.inOrderTraverseNode(node.right, callback)
+    }
+  }
+  protected preOrderTraverseNode(node: NodeType, callback: (key: any) => void) {
+    if (node === null) return
+    callback(node.key)
+    this.preOrderTraverseNode(node.left, callback)
+    this.preOrderTraverseNode(node.right, callback)
+  }
+  protected postOrderTraverseNode(
+    node: NodeType,
+    callback: (key: any) => void
+  ) {
+    if (node === null) return
+    this.postOrderTraverseNode(node.left, callback)
+    this.postOrderTraverseNode(node.right, callback)
+    callback(node.key)
+  }
+  /**
+   * 返回最小值
+   * @returns
+   */
+  min() {
+    let node = this.root
+    if (node === null) return null
+    while (node.left !== null) {
+      node = node.left
+    }
+    return node.key
+  }
+  /**
+   * 返回树的最大值
+   * @returns
+   */
+  max() {
+    let node = this.root
+    if (node === null) return null
+    while (node.right !== null) {
+      node = node.right
+    }
+    return node.key
+  }
   remove(key: any) {}
 }
