@@ -63,4 +63,32 @@ describe("BinarySearchTree", () => {
   test("search false", () => {
     expect(tree.search(11)).toBe(false)
   })
+
+  let tree2 = new BinarySearchTree()
+  test("remove node", () => {
+    tree2.insert(1)
+    expect(tree2).toEqual({ root: { key: 1, left: null, right: null } })
+
+    tree2.remove(1)
+    expect(tree2).toEqual({ root: null })
+  })
+
+  test("remove tow node", () => {
+    tree2.insert(3).insert(1).insert(5)
+    tree2.remove(1).remove(3)
+    console.log(JSON.stringify(tree2, null, 2))
+    expect(tree2).toEqual({
+      root: {
+        key: 5,
+        left: null,
+        right: null,
+      },
+    })
+  })
+
+  test("remove not exist", () => {
+    let tree = new BinarySearchTree()
+    tree.remove(11)
+    expect(tree).toEqual({ root: null })
+  })
 })

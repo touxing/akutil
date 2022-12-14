@@ -12,6 +12,7 @@ export class BinarySearchTree {
   /**
    * 插入节点
    * @param key
+   * @returns
    */
   insert(key: any) {
     let newNode = new Node(key)
@@ -20,6 +21,7 @@ export class BinarySearchTree {
     } else {
       this.insertNode(this.root, newNode)
     }
+    return this
   }
   protected insertNode(node: Node, newNode: Node) {
     if (newNode.key < node.key) {
@@ -121,5 +123,56 @@ export class BinarySearchTree {
     }
     return node.key
   }
-  remove(key: any) {}
+  /**
+   * 删除节点
+   * @param key
+   * @returns
+   */
+  remove(key: any) {
+    this.root = this.removeNode(this.root, key)
+    return this
+  }
+
+  protected removeNode(node: NodeType, key: any): NodeType {
+    if (node === null) return node
+    if (key < node.key) {
+      node.left = this.removeNode(node.left, key)
+      return node
+    } else if (key > node.key) {
+      node.right = this.removeNode(node.right, key)
+      return node
+    } else {
+      // key == node.key
+      // 第一种情况：一个叶子节点
+      if (node.left === null && node.right === null) {
+        node = null
+        return node
+      }
+      // 第二种情况：一个只有1个子节点的节点
+      if (node.left === null) {
+        node = node.right
+        return node
+      } else if (node.right === null) {
+        node = node.left
+        return node
+      }
+      // 第三种情况：一个有2个子节点的节点
+      let aux = this.findMinNode(node.right)!
+      // 维持二叉搜索树的性质：右边的节点比左边的节点大
+      node.key = aux.key
+      node.right = this.removeNode(node.right, aux.key)
+      return node
+    }
+  }
+  /**
+   * 找到一颗二叉搜索树的最小节点
+   * @param node
+   * @returns
+   */
+  findMinNode(node: NodeType): NodeType {
+    while (node && node.left !== null) {
+      node = node.left
+    }
+    return node
+  }
 }
