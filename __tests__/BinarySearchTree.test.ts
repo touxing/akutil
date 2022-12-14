@@ -1,4 +1,4 @@
-import { BinarySearchTree } from "../src/struct/BinarySearchTree"
+import { BinarySearchTree } from "../src/akutil"
 
 describe("BinarySearchTree", () => {
   test("insert: one", () => {
@@ -76,7 +76,6 @@ describe("BinarySearchTree", () => {
   test("remove tow node", () => {
     tree2.insert(3).insert(1).insert(5)
     tree2.remove(1).remove(3)
-    console.log(JSON.stringify(tree2, null, 2))
     expect(tree2).toEqual({
       root: {
         key: 5,
