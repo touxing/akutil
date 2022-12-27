@@ -1,3 +1,5 @@
+export type NodeType = Node | null
+
 export class Node {
   key: any
   left: Node | null

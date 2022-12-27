@@ -1,6 +1,5 @@
-import { Node } from "./Tree"
+import { Node, NodeType } from "./Tree"
 
-type NodeType = Node | null
 /**
  * 二叉搜索树
  */
