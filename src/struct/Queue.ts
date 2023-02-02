@@ -1,3 +1,5 @@
+import { NodeType } from "./Tree"
+
 /**
  * 队列数据结构
  */
@@ -6,18 +8,38 @@ export class Queue {
   constructor() {
     this.queue = []
   }
+  /**
+   * 是否空队列
+   * @returns
+   */
   isEmpty(): boolean {
     return this.queue.length === 0
   }
+  /**
+   * 队列大小
+   * @returns
+   */
   size(): number {
     return this.queue.length
   }
+  /**
+   * 入队列
+   * @param data
+   */
   enqueue(data: any): void {
     this.queue.push(data)
   }
+  /**
+   * 出队列
+   * @returns {NodeType}
+   */
   dequeue() {
     return this.queue.shift()
   }
+  /**
+   * 返回队列头数据
+   * @returns
+   */
   peek() {
     return this.queue[0]
   }

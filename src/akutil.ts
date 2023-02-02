@@ -28,6 +28,7 @@ import { Dictionary } from "./struct/Dictionary"
 import { HashTable } from "./struct/HasTable"
 import { BinarySearchTree } from "./struct/BinarySearchTree"
 import { AVLTree } from "./struct/AVLTree"
+import { Graph } from "./struct/Graph"
 
 import { extend } from "./extend"
 import { safeGetter } from "./safeGetter"
@@ -59,6 +60,7 @@ export {
   HashTable,
   BinarySearchTree,
   AVLTree,
+  Graph,
   extend,
   downloadFile,
   downloadFileWithBlob,
@@ -94,6 +96,7 @@ export default {
   HashTable,
   BinarySearchTree,
   AVLTree,
+  Graph,
   extend,
   flatten,
 }
