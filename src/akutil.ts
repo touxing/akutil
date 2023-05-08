@@ -30,6 +30,8 @@ import { BinarySearchTree } from "./struct/BinarySearchTree"
 import { AVLTree } from "./struct/AVLTree"
 import { Graph } from "./struct/Graph"
 
+import { LRUCache, LRUCacheLinkedList } from "./cache/LRUCache"
+
 import { extend } from "./extend"
 import { safeGetter } from "./safeGetter"
 import { safeSetter } from "./safeSetter"
@@ -61,6 +63,8 @@ export {
   BinarySearchTree,
   AVLTree,
   Graph,
+  LRUCache,
+  LRUCacheLinkedList,
   extend,
   downloadFile,
   downloadFileWithBlob,
@@ -97,6 +101,8 @@ export default {
   BinarySearchTree,
   AVLTree,
   Graph,
+  LRUCache,
+  LRUCacheLinkedList,
   extend,
   flatten,
 }
