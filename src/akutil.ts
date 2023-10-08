@@ -36,6 +36,9 @@ import { extend } from "./extend"
 import { safeGetter } from "./safeGetter"
 import { safeSetter } from "./safeSetter"
 
+// custom wrap localStorage and sessionStorage
+import { AkStorage } from './akStorage'
+
 export {
   isDef,
   isUnDef,
@@ -70,6 +73,7 @@ export {
   downloadFileWithBlob,
   downloadImage,
   flatten,
+  AkStorage,
 }
 export default {
   isDef,
@@ -105,4 +109,5 @@ export default {
   LRUCacheLinkedList,
   extend,
   flatten,
+  AkStorage,
 }
